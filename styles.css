@@ -112,6 +112,7 @@ h4 {
 p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
+  text-transform: capitalize;
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -231,9 +232,10 @@ Questions
   margin-bottom: 0;
 }
 /* hide text */
-/* .question-text {
+ .question-text {
   display: none;
 }
+
 .show-text .question-text {
   display: block;
 }
@@ -245,4 +247,4 @@ Questions
 }
 .show-text .plus-icon {
   display: none;
-} */
+} 
